@@ -4,13 +4,14 @@
     background:url('/header_img.png') no-repeat;
     background-size: contain;
     position: relative;
-
+    
 }
 
 .header-contents{
     position: absolute;
     display: flex;
     flex-direction: column;
+    
     align-items: start;
     gap: 1.5vw;
     max-width: 50%;
@@ -21,24 +22,27 @@
 
 .header-contents h2{
     font-weight: 500;
-    color: white;
+    color: rgb(236, 252, 21);
     font-size: max(4.5vw, 22px);
+    background: rgba(139, 139, 139, 0.014);
+
 
 
 }
 
 .header-contents p{
-    color: white;
+    color: rgb(252, 249, 249);
     font-size: 1vw;
+    background: rgba(139, 139, 139, 0.020);
 
 }
 
 .header-contents button{
     border: none;
-    color: #747474;
+    color: #FFD700;
     font-weight: 500;
     padding: 1vw 2.3vw;
-    background-color: white;
+    background-color: #0A2540;
     font-size: max(1vw, 13px);
     border-radius: 50px;
 }
