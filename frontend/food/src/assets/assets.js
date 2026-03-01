@@ -140,6 +140,7 @@ import twitter_icon from './twitter_icon.png'
 import play_store from './play_store.png'
 import app_store from './app_store.png'
 import cross_icon from './cross_icon.png'
+import rating_starts from './rating_starts.png'
 
 
 
@@ -168,7 +169,8 @@ export const assets = {
     facebook_icon,
     twitter_icon,
     linkedin_icon,
-    cross_icon
+    cross_icon,
+    rating_starts
 }
 
 export const menu_list = [
