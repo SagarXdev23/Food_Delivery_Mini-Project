@@ -141,6 +141,9 @@ import play_store from './play_store.png'
 import app_store from './app_store.png'
 import cross_icon from './cross_icon.png'
 import rating_starts from './rating_starts.png'
+import add_icon_white from './add_icon_white.png'
+import add_icon_green from './add_icon_green.png'
+import remove_icon_red from './remove_icon_red.png'
 
 
 
@@ -154,6 +157,11 @@ import menu_7 from './menu_7.png'
 import menu_8 from './menu_8.png'
 
 import food_1 from './food_1.png'
+import food_2 from './food_2.png'
+import food_3 from './food_3.png'
+import food_4 from './food_4.png'
+import food_5 from './food_5.png'
+import food_6 from './food_6.png'
 
 export const assets = {
     logo,
@@ -170,7 +178,10 @@ export const assets = {
     twitter_icon,
     linkedin_icon,
     cross_icon,
-    rating_starts
+    rating_starts,
+    add_icon_white,
+    add_icon_green,
+    remove_icon_red
 }
 
 export const menu_list = [
@@ -196,7 +207,7 @@ export const food_list = [
     {
         _id: "2", // Unique ID
         name: "Veg salad",
-        image: food_1,
+        image: food_2,
         price: 18,
         description: "Food provides nutrients for overall health and well-being",
         category: "Salad"
@@ -204,7 +215,7 @@ export const food_list = [
     {
         _id: "3", // Unique ID
         name: "Clover Salad",
-        image: food_1,
+        image: food_3,
         price: 16,
         description: "Food provides nutrients for overall health and well-being",
         category: "Salad"
@@ -212,7 +223,39 @@ export const food_list = [
     {
         _id: "4", // Unique ID
         name: "Chicken Salad",
-        image: food_1,
+        image: food_4,
+        price: 24,
+        description: "Food provides nutrients for overall health and well-being",
+        category: "Salad"
+    },
+    {
+        _id: "1",
+        name: "Greek salad",
+        image: food_5,
+        price: 12,
+        description: "Food provides nutrients for overall health and well-being",
+        category: "Salad"
+    },
+    {
+        _id: "2", // Unique ID
+        name: "Veg salad",
+        image: food_6,
+        price: 18,
+        description: "Food provides nutrients for overall health and well-being",
+        category: "Salad"
+    },
+    {
+        _id: "3", // Unique ID
+        name: "Clover Salad",
+        image: food_3,
+        price: 16,
+        description: "Food provides nutrients for overall health and well-being",
+        category: "Salad"
+    },
+    {
+        _id: "4", // Unique ID
+        name: "Chicken Salad",
+        image: food_4,
         price: 24,
         description: "Food provides nutrients for overall health and well-being",
         category: "Salad"
