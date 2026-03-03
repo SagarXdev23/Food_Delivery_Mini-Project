@@ -40,7 +40,7 @@
 
 import React, { useState } from 'react'
 
-import Navbar from './components/navbar/navbar'
+import Navbar from './components/navbar/Navbar'
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home/Home'
 import Cart from './pages/Home/Cart/Cart'
@@ -65,7 +65,7 @@ const App = () => {
       <Routes>
        
         <Route path='/' element= {<Home/>} />
-        <Route path='/Cart' element= {<Cart/>} />
+        <Route path='/cart' element= {<Cart/>} />
         <Route path='/order' element= {<PlaceOrder />} />
       </Routes>
  </div>
