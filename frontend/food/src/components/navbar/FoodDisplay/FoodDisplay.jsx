@@ -64,10 +64,3 @@ const FoodDisplay = ({ category }) => {
 }
 
 export default FoodDisplay
-
-
-
-
-
-
-
