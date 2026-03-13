@@ -1,0 +1,8 @@
+npm install express  mongoose to connect with database jsonwebtoken using this we will create auth system bcrypt to enxrypt the user data.
+cors we can give the permision to frontnd to connect with backed.
+enviorment variable in our project
+parse the data coming from the user. BODY PARSER.
+multer to create image store system
+stripe payment gateways.
+validator to check if the password is valid or not
+nodemon when we will save our project the server will be restarted
