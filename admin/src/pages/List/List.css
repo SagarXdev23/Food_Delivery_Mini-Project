@@ -1,0 +1,50 @@
+.list{
+    width: 70%;
+    margin-left: max(5vw,25px);
+    margin-top: 50px;
+    color: #6d6d6d;
+    font-size: 16px;
+}
+
+.list p{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.list-table{
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.list-table-format{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 0.5fr;
+    align-items: center;
+    padding: 12px 15px;
+    margin: 10px 0px;
+    border: 1px solid #cacaca;
+    font-size: 14px;
+}
+
+.list-table-format.title{
+    background-color: #f9f9f9;
+}
+
+.list-table-format img{
+    width: 50px;
+}
+
+.list-table-format .cursor{
+    cursor: pointer;
+    color: red;
+}
+
+@media (max-width: 600px) {
+    .list-table-format{
+        grid-template-columns: 0.5fr 2fr 1fr;
+    }
+
+    .list-table-format .price, .list-table-format .delete{
+        display: none;
+    }
+}
