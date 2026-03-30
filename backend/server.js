@@ -1,6 +1,9 @@
+import dotenv from "dotenv";
+dotenv.config();
 import express from "express";
 import cors from "cors";
 import foodRouter from "./routes/foodRoute.js";
+
 
 // app config
 
