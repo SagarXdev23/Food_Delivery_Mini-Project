@@ -344,5 +344,7 @@ export const food_list = [
         price: 12,
         description: "Food provides nutrients for overall health and well-being",
         category: "Rolls"
+
+        
     }
 ]
