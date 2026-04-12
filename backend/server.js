@@ -2,8 +2,11 @@ import dotenv from "dotenv";
 dotenv.config();
 import express from "express";
 import cors from "cors";
+import path from "path";
 import foodRouter from "./routes/foodRoute.js";
+import userRouter from "./routes/userRoute.js";
 
+import 'dotenv/config';
 
 // app config
 
@@ -22,7 +25,8 @@ connectDB();
 
 // api endpoints
 app.use("/api/food", foodRouter);
-app.use("/images", express.static("uploads")) // to access the images from frontend
+app.use("/images", express.static(path.resolve("uploads"))) // to access the images from frontend
+app.use("/api/user", userRouter);
 
 
 
