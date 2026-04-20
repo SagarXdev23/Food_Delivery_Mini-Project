@@ -9,6 +9,7 @@ import foodRouter from "./routes/foodRoute.js";
 import userRouter from "./routes/userRoute.js";
 
 import { connectDB } from "./config/db.js";
+import cartRouter from "./routes/cartRoute.js";
 
 const app = express();
 const port = 4000;
@@ -21,6 +22,7 @@ app.use(cors());
 app.use("/api/food", foodRouter);
 app.use("/api/user", userRouter);
 app.use("/images", express.static(path.resolve("uploads")));
+app.use("/api/cart",cartRouter);
 
 app.get("/", (req, res) => {
   res.send("API Working");
