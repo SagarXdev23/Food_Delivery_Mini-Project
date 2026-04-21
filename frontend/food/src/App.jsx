@@ -45,11 +45,12 @@ import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home/Home'
 import Cart from './pages/Home/Cart/Cart'
 import PlaceOrder from './pages/Home/Cart/PlaceOrder/PlaceOrder'
+import Verify from './pages/Home/Verify/Verify'
+import MyOrders from './pages/Home/MyOrders/MyOrders'
 import Header from './components/navbar/Header/Header';
 import FoodDisplay from './components/navbar/FoodDisplay/FoodDisplay'
 import Footer from './components/navbar/Footer/Footer'
 import LoginPopup from './components/navbar/LoginPopup/LoginPopup'
-
 
 const App = () => {
 
@@ -67,6 +68,8 @@ const App = () => {
         <Route path='/' element= {<Home/>} />
         <Route path='/cart' element= {<Cart/>} />
         <Route path='/order' element= {<PlaceOrder />} />
+        <Route path='/verify' element={<Verify />} />
+        <Route path='/myorders' element={<MyOrders />} />
       </Routes>
  </div>
  <Footer/>

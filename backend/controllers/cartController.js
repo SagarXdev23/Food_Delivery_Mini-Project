@@ -15,7 +15,7 @@ try {
         cartData[req.body.itemId]+=1;
 
     }
-    await userModel.findByAndUpdate(req.body.userId,{cartData});
+    await userModel.findByidAndUpdate(req.body.userId,{cartData});
     res.json({success:true,message:"Added to cart"});
 
 } catch (error) {
@@ -32,7 +32,7 @@ try {
     if(cartData[req.body.itemId]>0){
         cartData[req.body.itemId]-=1;
     }
-    await userModel.findByIdUpdate(req.body.userId,{cartData})
+    await userModel.findByIdAndUpdate(req.body.userId,{cartData})
     res.json({success:true,message:"Removed from cart"})
 } catch (error) {
     console.log(error);

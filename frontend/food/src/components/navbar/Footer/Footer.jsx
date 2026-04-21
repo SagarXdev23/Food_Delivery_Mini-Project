@@ -37,9 +37,10 @@ function Footer() {
      
       
       <p className="footer-copyright">
-         <hr />
+         
         Copyright 2024 @ food.com  - All right reserved.
       </p>
+      <hr />
     </div>
 
 
